@@ -1,0 +1,3 @@
+[submodule "src/Services/Identity/auth.microsb.net"]
+	path = src/Services/Identity/auth.microsb.net
+	url = git@github.com:geminiyellow/auth.microsb.net.git
