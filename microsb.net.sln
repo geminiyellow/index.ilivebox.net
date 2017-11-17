@@ -1,0 +1,34 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{25D5637F-5784-40A8-B950-BB4917D698DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{8F40B3C0-8273-4FFB-B4FF-E89E4B033261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auth.microsb.net", "src\Services\Identity\auth.microsb.net\auth.microsb.net.csproj", "{ED942FF6-9FA2-4216-A73A-20EEB006B4B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5EA68F06-A581-4616-8EB9-748330E19B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infrastructure.microsb.net", "src\infrastructure.microsb.net\infrastructure.microsb.net.csproj", "{2F446482-BEC8-49D2-98C5-76424E2DDA1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED942FF6-9FA2-4216-A73A-20EEB006B4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED942FF6-9FA2-4216-A73A-20EEB006B4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED942FF6-9FA2-4216-A73A-20EEB006B4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED942FF6-9FA2-4216-A73A-20EEB006B4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F446482-BEC8-49D2-98C5-76424E2DDA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F446482-BEC8-49D2-98C5-76424E2DDA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F446482-BEC8-49D2-98C5-76424E2DDA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F446482-BEC8-49D2-98C5-76424E2DDA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F40B3C0-8273-4FFB-B4FF-E89E4B033261} = {25D5637F-5784-40A8-B950-BB4917D698DE}
+		{ED942FF6-9FA2-4216-A73A-20EEB006B4B0} = {8F40B3C0-8273-4FFB-B4FF-E89E4B033261}
+		{2F446482-BEC8-49D2-98C5-76424E2DDA1D} = {5EA68F06-A581-4616-8EB9-748330E19B32}
+	EndGlobalSection
+EndGlobal
